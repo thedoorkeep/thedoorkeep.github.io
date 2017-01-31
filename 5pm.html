@@ -59,10 +59,9 @@
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
+    <header id="top" class="fiveheader">
         <div class="text-vertical-center">
-            <h1>Hello!</h1>
-            <h2>I'm Tyler Schmidt</h2>
+            <h1>It's 5 o clock somewhere</h1>
         </div>
     </header>
 
@@ -70,9 +69,36 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3> and I'm a Designer</h3>
-                    <p class="lead">I'm also an illustrator, comic book nerd, board game fan, player of a few instruments, homebrewer, amateur DIY-er, netflix enthusiast, and lover of run on sentences. Find out more about me here.</p>
+                <div class="col-lg-12 text-left">
+                    <h3 class="text-center">A javascript focused project based on time</h3>
+                    <p class="lead">My best friend and I often have discussions on what are fun single serving site ideas we could make. Simple sites that only serve one purpose or do one thing for those who access it. It’s 5 o clock somewhere is one of my favorite things to come out of one of these discussions. The idea of the site is simple, instead of saying “it’s 5 o clock somewhere” this site will tell you where.
+                    </p>
+                        <img class="portfolio-img" src="http://www.fillmurray.com/g/500/400">
+                    <h4 class="text-center">Problem</h4>
+                    <p class="lead">The main challenge in this project was really, just understanding how to actually make it work. I knew previously how to create arrays and use them to make fun, simple sites with a focus on randomness, as seen here (https://thedoorkeep.github.io/wtfbeer/) However, I needed to learn how to use existing javascript and jquery tools in conjunction with my existing knowledge to be able to produce even more things.
+                    </p>
+                        <img class="portfolio-img" src="http://www.fillmurray.com/g/900/400">
+                    <h4 class="text-center">Process</h4>
+                    <p class="lead">The process for this project first started conceptually. The main idea was to first and foremost have a site tell you where it was currently 5pm. This bounced around to other ideas of possibly educating people of local breweries and beer, but that felt too niche to my interests and over complicated the core concept, which was to be light and fun. However, I wanted the site to have some life and brevity to it, so only saying a location felt too light and direct. That lead to adding an additional line that suggests a local beverage, which kept the simple nature of the idea, but added in some personality and information.
+                    <p class="lead">
+                    Because the purpose of the site was so simple, I decided that to fit with the simple features and content of the site, I wanted to make it very visually appealing and utilize landscape photography of the location it’s currently 5pm.  This core idea lead to skipping wireframing all together and going right into mock ups.
+                    </p>
+                    <p class="lead">
+                    Through either steadfast confidence in my design or simple bullheadedness, I decided this was the design direction I wanted to go with and then dove into the more complicated aspects, that of actually making this work.
+                    </p>
+                        <img class="portfolio-img" src="http://www.fillmurray.com/g/800/500">
+                    <h4 class="text-center">Execution</h4>
+                    <p class="lead">I knew going into this project I would need to utilize an outside source to make the site fully do what I want it to. This started through research and obsessively digging through stack overflow for possible solutions, until I was pointed to moment.js - a javascript library that allows you to manipulate and display dates and time in javascript.
+                    <p class="lead">
+                    Having already created arrays for the locations and beverages I wanted for each time zone, I dove into working moment into my js and manipulating the current time. After much trial and error, I was able to adjust the site to take the current time and go to 5pm. By using the same process, I could then display the location that is 5pm, and suggest a drink from that location.
+                    </p>
+                    <h4 class="text-center">Testing</h4>
+                    <p class="lead">An idea is only as good as it’s execution, and an execution is only good if it works. Because of this, I needed to verify that all locations worked in my site. To do this, I added a slider into the code that is visually hidden so those unaware of the slider would not alter what is displayed. However, for myself and any others interested in hacking my site, by simply pressing a left or right arrow you can slide through all time zones and suggestions.
+                    </p>
+                        <img class="portfolio-img" src="http://www.fillmurray.com/g/1200/400">
+                    <h4 class="text-center">Conclusion</h4>
+                    <p class="lead">This was one of my first big steps into using javascript and problem solving more complicated code issues, and I had a great deal of fun learning to problem solve for unfamiliar situations. I also feel that this project is a good representation of my personality, which I like to think is a bit light and funny as well as informative.  To see the working version of this site, visit https://thedoorkeep.github.io/5oclock/
+                    </p>
                 </div>
             </div>
             <!-- /.row -->
@@ -83,7 +109,7 @@
     
 
     <!-- projects -->
-    <aside class="callout1">
+    <!-- <aside class="callout1">
         <div class="text-vertical-center1">
             <h1>Tappist</h1>
         </div>
@@ -111,7 +137,7 @@
         <div class="text-vertical-center1">
             <h1>Branding</h1>
         </div>
-    </aside>
+    </aside> -->
 
     <!-- Footer -->
     <footer>

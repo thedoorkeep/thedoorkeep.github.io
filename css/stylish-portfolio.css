@@ -33,7 +33,7 @@ body {
     padding: 0;
     font-size: 12.5em;
     font-weight: 700;
-    color: #3498db;
+    color: white;
 }
 
 .text-vertical-center1 h1 {
@@ -41,6 +41,11 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    color: white;
+}
+
+.text-vertical-center h2 {
+
     color: white;
 }
 
@@ -171,11 +176,103 @@ hr.small {
     position: relative;
     width: 100%;
     height: 80%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background:
+    linear-gradient(
+      rgba(0,0,0,.2), 
+      rgba(0,0,0,.4)),
+    url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.tappistheader {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background:
+    linear-gradient(
+      rgba(0,0,0,.2), 
+      rgba(0,0,0,.4)),
+    url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.fiveheader {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background:
+    linear-gradient(
+      rgba(0,0,0,.4), 
+      rgba(0,0,0,.6)),
+    url(../img/callout3.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.sleepheader {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background:
+    linear-gradient(
+      rgba(0,0,0,.4), 
+      rgba(0,0,0,.6)),
+    url(../img/callout4.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.beerheader {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background:
+    linear-gradient(
+      rgba(0,0,0,.4), 
+      rgba(0,0,0,.6)),
+    url(../img/callout2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.brandingheader {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background:
+    linear-gradient(
+      rgba(0,0,0,.4), 
+      rgba(0,0,0,.6)),
+    url(../img/callout5.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* portfolio img*/
+
+.portfolio-img{
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
 }
 
 /* About */
@@ -310,11 +407,130 @@ hr.small {
     height: 500px;
 }
 
+/* Mobile */
+
 @media(max-width:768px) {
     .map {
         height: 75%;
     }
+
+    /* headline */
+
+    .text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+    .text-vertical-center1 {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .text-vertical-center h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 4.5em;
+        font-weight: 700;
+        color: white;
+    }
+
+    .text-vertical-center h2 {
+        font-size: 2em;
+        color: white;
+    }
+
+    .text-vertical-center1 h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 3.5em;
+        font-weight: 700;
+        color: white;
+    }
+
+    /* portfolio links */
+    .callout1 {
+    display: table;
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    background:
+    linear-gradient(
+      rgba(0,0,0,.2), 
+      rgba(0,0,0,.4)),
+    url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }
+
+    .callout2 {
+        display: table;
+        width: 100%;
+        height: 200px;
+        color: #fff;
+        background:
+        linear-gradient(
+          rgba(0,0,0,.4), 
+          rgba(0,0,0,.6)),
+        url(../img/callout2.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .callout3 {
+        display: table;
+        width: 100%;
+        height: 200px;
+        color: #fff;
+        background:
+        linear-gradient(
+          rgba(0,0,0,.4), 
+          rgba(0,0,0,.6)),
+        url(../img/callout3.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .callout4 {
+        display: table;
+        width: 100%;
+        height: 200px;
+        color: #fff;
+        background:
+        linear-gradient(
+          rgba(0,0,0,.4), 
+          rgba(0,0,0,.6)),
+        url(../img/callout4.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .callout5 {
+        display: table;
+        width: 100%;
+        height: 200px;
+        color: #fff;
+        background:
+        linear-gradient(
+          rgba(0,0,0,.2), 
+          rgba(0,0,0,.4)),
+        url(../img/callout5.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
 }
+
 
 .map iframe {
     pointer-events: none;
