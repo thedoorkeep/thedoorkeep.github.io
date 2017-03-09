@@ -270,9 +270,12 @@ hr.small {
 /* portfolio img*/
 
 .portfolio-img{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
     position: relative;
-    width: 100%;
+    width: 80%;
 }
 
 /* About */
